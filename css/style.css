@@ -1,10 +1,4 @@
-.card-image {
-  width: 100%;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -184,8 +178,6 @@ a {
   margin-top: 25px;
 }
 
-
-
 .project-details {
   background-color: #F9DCE7;
   padding: 25px;
@@ -255,10 +247,17 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .site-footer {
+ .site-footer {
     flex-direction: column;
     gap: 10px;
     text-align: center;
   }
-}
 
+  .hero-side {
+    padding: 25px;
+  }
+
+  .case-content {
+    padding: 20px;
+  }
+}
